@@ -1,0 +1,104 @@
+#details .head{
+  background: linear-gradient(to right, rgba(245,245,245,0.7), rgba(245,245,245,0.7)),url('../../assets/img/header/common-bg.svg');
+  background-position: center;
+}
+#details .head .content h2{
+  font-size: 3.875rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  letter-spacing: .1875rem;
+}
+#details .head .content p{
+  font-size: 1.4375rem;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+}
+
+#details .head .content .btn{
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: .0625rem;
+  background-color: var(--main-color);
+}
+#details .head .content button{
+  transition: transform 0.5s ease;
+}
+#details .head .content button:hover{
+  transform: translateY(-0.625rem);
+}
+@media only screen and (max-width: 768px) {
+  #details .head .content h2{
+    font-size: 2.1875rem;
+  }
+  #details .head .content p{
+    font-size: 1.125rem;
+  }
+  #details .head .content .btn{
+    font-size: 1rem;
+  }
+}
+#details .project{
+  background-color: #fff;
+}
+
+#details .project h6{
+  font-size: 1.8125rem;
+  font-weight: 700;
+  color: black;
+}
+
+#details ul li{
+  list-style: none;
+}
+
+#details .project .overView ul li{
+  font-size: 1.1875rem;
+  font-weight: 400;
+  color: var(--secondary-title);
+}
+
+#details .project .tools ul li{
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--secondary-title);
+  background-color: #EBEBEB;
+  transition:transform 0.3s ease ;
+}
+#details .project .live .btn{
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: .0625rem;
+  background-color: var(--main-color);
+}
+#details .project .live button{
+  transition: transform 0.5s ease;
+}
+#details .project .live button:hover{
+  transform: translateY(-0.625rem);
+}
+#details .project .live .goBack{
+  background-color: transparent;
+  color: black;
+  border: 2px solid var(--main-color);
+}
+@media only screen and (max-width: 768px) {
+  #details .project h6{
+    font-size: 1.3125rem;
+  }
+  #details .project .overView ul li{
+    font-size: 1rem;
+  }
+  #details .project .tools ul li{
+    font-size: .9375rem;
+  }
+  #details .project .live .btn{
+    font-size: .9375rem;
+  }
+}
+
+#details .project .tools ul li:hover{
+  transform: translateY(-0.625rem);
+}
+

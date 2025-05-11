@@ -1,0 +1,16 @@
+<header id="home" [dir]="direction" class="d-flex justify-content-center align-items-center position-relative vh-100">
+  <div class="container-md p-2">
+    <h1 class="text-center">
+      {{'home.myName' | translate}}
+    </h1>
+    <p class="text-center mt-3 mb-5">
+      {{'home.title' | translate}}
+    </p>
+    <button class="d-block mx-auto btn px-5 py-3" (click)="scroll('projects')">{{'home.projects' | translate}}</button>
+    <div class="parentMouse">
+      <div class="mouse rounded-pill"></div>
+    </div>
+  </div>
+</header>
+<app-about></app-about>
+<app-projects></app-projects>

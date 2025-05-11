@@ -1,0 +1,30 @@
+<section [dir]="direction" id="projects" class="p-3">
+  <div class="container-md mt-5">
+    <h2 class="text-center pt-5 position-relative">{{'projects.h2' | translate}}</h2>
+    <p class="text-center title mt-3">
+      {{'projects.title' | translate}}
+    </p>
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="row mt-5" *ngFor="let item of projects">
+          <div class="col-md-6 p-0">
+            <div class="p-2">
+              <img loading="lazy" [src]="'../../assets/img/projects/'+item.src" class="w-100" alt="img project">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-2">
+              <h4 class="mt-3">
+                {{item.title}}
+              </h4>
+              <p class="mt-2">
+                {{item.desc}}
+              </p>
+              <button class="btn mt-4 px-5 py-3" (click)="goToProject(item.id)">{{'projects.button' | translate}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

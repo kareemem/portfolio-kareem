@@ -1,0 +1,56 @@
+<section id="details" [dir]="direction" *ngIf="detailsProject">
+  <div class="d-flex justify-content-center align-items-center head vh-100">
+    <div class="container-md p-2 content">
+      <h2 class="text-center">{{ detailsProject.name }}</h2>
+      <p class="text-center">{{ detailsProject.title }}</p>
+      <button class="btn d-block mx-auto px-5 py-3" (click)="openLink(detailsProject.githubLink)">
+        {{'detailsProject.projectLink' | translate}}
+      </button>
+    </div>
+  </div>
+
+  <div class="project py-5 p-3">
+    <div class="container-md p-2">
+      <div>
+        <owl-carousel-o dir="ltr" [options]="customOptions">
+          <ng-container *ngFor="let img of imgs">
+            <ng-template carouselSlide>
+              <div class="p-2">
+                <img loading="lazy" [src]="'../../assets/img/projects/' + img.src" class="w-100" alt="img project">
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+
+        <div class="my-5 py-5">
+          <div class="overView">
+            <h6>{{'detailsProject.overview' | translate}}</h6>
+            <ul>
+              <li class="my-4" *ngFor="let overview of overview">
+                {{ overview.desc }}
+              </li>
+            </ul>
+          </div>
+
+          <div class="tools my-5">
+            <h6>{{'detailsProject.tools' | translate}}</h6>
+            <ul class="d-flex justify-content-start align-items-center flex-wrap">
+              <li *ngFor="let tool of detailsProject.tools" [ngClass]="{'me-3': direction == 'ltr' , 'ms-3': direction == 'rtl'}" class="my-4 p-3 rounded-3">
+                {{ tool.toolName }}
+              </li>
+            </ul>
+          </div>
+
+          <div class="live">
+            <h6>{{'detailsProject.seeLive' | translate}}</h6>
+            <div class="mt-4 justify-content-start align-items-center flex-wrap">
+              <button class="btn" (click)="openLink(detailsProject.liveLink)">{{'detailsProject.projectLink' | translate}}</button>
+              <button [ngClass]="{'ms-3': direction == 'ltr' , 'me-3': direction == 'rtl'}" class="btn  goBack" (click)="showNav()" routerLink="/">{{'detailsProject.goBack' | translate}}</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

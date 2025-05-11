@@ -1,0 +1,103 @@
+{
+  "nav":{
+    "name":"KAREEM EMAD",
+    "home":"HOME",
+    "about":"ABOUT",
+    "projects":"PROJECTS"
+  },
+  "home":{
+    "myName":"HELLO, I'M KAREEM EMAD",
+    "title":"Front-End Developer crafting clean, fast, and user-focused web experiences",
+    "projects":"PROJECTS"
+  },
+  "about":{
+    "h2":"ABOUT ME",
+    "title":"Get to know more about me, what I do, and the skills I bring to the table",
+    "know":"Get to know me!",
+    "iamOnePartOne":"I'm a ",
+    "iamOnePartTwo":"Front-End Developer",
+    "iamOnePartThree":" passionate about creating clean, responsive, and user-friendly web interfaces. I focus on building and managing the front end of websites and applications that contribute to great user experiences and overall product success.",
+    "iamTwoPartOne":"I enjoy sharing what I learn in ",
+    "iamTwoPartTwo":"web development",
+    "iamTwoPartThree":"to help others in the developer community. You can connect with me on  ",
+    "iamTwoPartFour":"LinkedIn",
+    "iamTwoPartFive":", where I post content about coding, tools, and tips.",
+    "iamThree":"I'm open to job opportunities where I can contribute, learn, and grow. If you have a role that matches my skills, feel free to reach out.",
+    "skills":"My Skills"
+  },
+  "projects":{
+    "h2":"PROJECTS",
+    "title":"A curated selection of personal and client projects — each accompanied by a detailed case study highlighting the design decisions, challenges, and results.",
+    "button":"CASE STUDY",
+    "nameProjectOne":"E-commerce",
+    "descProjectOne":"A responsive e-commerce web application built with Angular and Bootstrap, offering a clean design and smooth product browsing experience.",
+    "nameProjectTwo":"FC-Barcelona",
+    "descProjectTwo":"A standalone football team website built with Angular, featuring team details, player profiles, and a responsive design for an engaging user experience.",
+    "nameProjectThree":"Yummu",
+    "descProjectThree":"A food recipe website built with jQuery, integrating an API to display ingredients, cooking instructions, and popular dishes from various countries.",
+    "nameProjectFour":"Watch",
+    "descProjectFour":"A sleek smartwatch portfolio website built with jQuery and WOW.js, featuring interactive animations and smooth transitions to showcase various models.",
+    "nameProjectFive":"Profile",
+    "descProjectFive":"A personal portfolio website built with HTML, CSS, Bootstrap, and FontAwesome, designed to highlight a clean, responsive aesthetic for visual appeal.",
+    "nameProjectSex":"Fokir",
+    "descProjectSex":"A personal portfolio website built with HTML, CSS, Bootstrap, FontAwesome, and simple JavaScript, featuring a clean, responsive design with an interactive carousel."
+  },
+  "footer":{
+    "name":"KAREEM EMAD",
+    "title":"A Frontend Web Developer focused on building responsive, user-friendly websites and web applications that drive the success of the overall product",
+    "social":"SOCIAL",
+    "footTitle":"© Copyright 2025 . Made by "
+  },
+  "detailsProject":{
+    "projectLink":"PROJECT LINK",
+    "overview":"Project Overview",
+    "tools":"Tools Used",
+    "seeLive":"See Live",
+    "goBack":"GO BACK",
+    "endOverview":"Explore the live version of the project to see it in action."
+  },
+  "ECommerce":{
+    "name":"E-commerce",
+    "title":"This page contains the case study of E-commerce Website Template which includes the Project Overview, Tools Used and Live Links to the official product.",
+    "overviewOne":"A modern and responsive e-commerce platform displaying a wide range of products like clothing and electronics, with an intuitive interface, clean layout, and seamless user experience.",
+    "overviewTwo":"Implemented secure Login/Logout system and Payment Gateway.",
+    "overviewThree":"Designed responsive UI with Bootstrap and FontAwesome.",
+    "overviewFour":"Implemented a responsive product slider using Owl Carousel to enhance user experience and showcase items in an interactive, visually engaging way."
+  },
+  "barcelona":{
+    "name":"FC-Barcelona",
+    "title":"This page contains the case study of FC-Barcelona Website Template which includes the Project Overview, Tools Used and Live Links to the official product.",
+    "overviewOne":"This project is a football team website with an integrated store, built using Angular and stand-alone components, featuring team info, player profiles, and an e-commerce section with a responsive layout and seamless navigation.",
+    "overviewTwo":"The website features smooth animations using WOW.js and Animate.css, along with pagination functionality to enhance user interaction, providing a seamless browsing experience with engaging transitions and efficient content navigation.",
+    "overviewThree":"Designed responsive UI with Bootstrap and FontAwesome.",
+    "overviewFour":"Implemented a responsive product slider using Owl Carousel to enhance user experience and showcase items in an interactive, visually engaging way."
+  },
+  "yummu":{
+    "name":"Yummu",
+    "title":"This page contains the case study of Yummu Website Template which includes the Project Overview, Tools Used and Live Links to the official product.",
+    "overviewOne":"A food recipes website showcasing popular dishes from around the world, with detailed preparation methods and ingredients for each recipe.",
+    "overviewTwo":"Built using jQuery, Bootstrap, and FontAwesome for a seamless, responsive experience.",
+    "overviewThree":"Fetches data dynamically through an API for an engaging user experience."
+  },
+  "watch":{
+    "name":"Watch",
+    "title":"This page contains the case study of Watch Website Template which includes the Project Overview, Tools Used and Live Links to the official product.",
+    "overviewOne":"A landing page showcasing modern smartwatches with a clean, responsive design.",
+    "overviewTwo":"Built using jQuery, Bootstrap, and FontAwesome for structure and styling.",
+    "overviewThree":"Smooth scroll animations powered by WOW.js for an engaging user experience."
+  },
+  "profile":{
+    "name":"Profile",
+    "title":"This page contains the case study of Profile Website Template which includes the Project Overview, Tools Used and Live Links to the official product.",
+    "overviewOne":"A personal profile website displaying general personal information in a clean layout.",
+    "overviewTwo":"Built using HTML, CSS, Bootstrap, and FontAwesome.",
+    "overviewThree":"Includes smooth CSS animations for text effects, hover interactions, and transitions."
+  },
+  "fokir":{
+    "name":"Fokir",
+    "title":"This page contains the case study of Fokir Website Template which includes the Project Overview, Tools Used and Live Links to the official product.",
+    "overviewOne":"A personal portfolio-style website showcasing general personal information in a stylish layout.",
+    "overviewTwo":"Built using HTML, SCSS, JavaScript, Bootstrap, and FontAwesome.",
+    "overviewThree":"Includes interactive elements like carousels and CSS-based animations for a smooth user experience."
+  }
+}

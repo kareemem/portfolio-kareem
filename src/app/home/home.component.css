@@ -1,0 +1,74 @@
+header{
+  background: linear-gradient(to right, rgba(245,245,245,0.7), rgba(245,245,245,0.7)),url('../../assets/img/header/common-bg.svg');
+  background-position: center;
+}
+header h1{
+  font-size: 3.875rem;
+  font-weight: 800;
+  color: var(--secondary-color);
+  letter-spacing: .1875rem;
+}
+header p{
+  font-size: 1.4375rem;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+}
+header .btn{
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: .0625rem;
+  background-color: var(--main-color);
+}
+button{
+  transition: transform 0.5s ease;
+}
+button:hover{
+  transform: translateY(-0.625rem);
+}
+.parentMouse {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mouse {
+  width: 1.5625rem;
+  height: 2.5rem;
+  border: .125rem solid #333;
+  position: relative;
+  overflow: hidden;
+}
+.mouse::before {
+  content: '';
+  width: .5rem;
+  height: .5rem;
+  position: absolute;
+  top: .4375rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 1.3s infinite;
+}
+@keyframes wheel {
+  to {
+      opacity: 0;
+      top: 1.6875rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header h1{
+    font-size: 2.1875rem;
+  }
+  header p{
+    font-size: 1.125rem;
+  }
+  header .btn{
+    font-size: 1rem;
+  }
+}
+
+
+
